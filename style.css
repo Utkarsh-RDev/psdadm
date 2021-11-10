@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+/* navbar */
+
+@media (min-width: 575px){
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.nav-link{
+    color: white!important;
+}
+.navbar .container-fluid {
+    max-width: 1170px;
+    height: 153px;
+    margin: 0 auto;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: end;
+}
+}
+@media (max-width: 575px){
+    .navbar{
+        background-color: #333;
+    }
+}
+
+/* carousel */
+
+.carousel {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    color: #333;
+    height: 962px;
+  }
+.slick-slide {
+    text-align: center;
+    color: #419be0;
+    height:962px;
+    background: white;
+    margin:0px;
+  }
+  .slick-prev,.slick-next {
+    display: none!important;
+}
+.slider_1{
+    position: relative;
+    width: 100%!important;
+    display: flex;
+    justify-content: center;
+    top:50%;
+}
+.slider_1 h1{
+    position: absolute;
+}
+.slider img{
+    width:100%;
+    height: 100%;
+}
+@media(max-width:768px){
+    .carousel {
+        max-height: 350px;
+        overflow: hidden;
+    }
+    .slick-slide {
+        height: 350px;
+    }
+    .slider_1{
+        top:50%;
+    }
+}
+
+
+
+/* section2 */
+
+.section2{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.section2 h1{
+    padding: 160px 0 120px 0;
+}
+.section2 .boxes{
+    max-height:570px;
+    height: 570px;
+    width: 100%;
+    gap:50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.section2 .boxes .box1{
+    width: 360px;
+    height: 500px;
+    background-image: url(./images/fotografierende-1KkhQ8uL28g-unsplash.png);
+    position: relative;
+    top:70px;
+    background-color: #54c8e8;
+}
+.section2 .boxes .box2{
+    width: 350px;
+    height: 500px;
+    background-image: url(./images/miguel-bruna-TzVN0xQhWaQ-unsplash.png);
+    background-color: #ff6c37;
+    background-size: cover;
+    position: relative;
+}
+.section2 .boxes .box3{
+    width: 360px;
+    height: 500px;
+    background-image: url(./images/family-home.png);
+    position: relative;
+    top:70px;
+    background-size: cover;
+    background-color: #54c8e8;
+}
+.section2 .boxes h3{
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    position: relative;
+    padding:20px;
+    top: 40%;
+}
+.section2 .boxes .box1::before,.section2 .boxes .box3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #54c8e8;
+    opacity: 0.3;
+}
+.section2 .boxes .box2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ff6c37;
+    opacity: 0.3;
+}
+
+.section3{
+    position :relative;
+    margin: 250px 0 250px 0;
+}
+.section3 .box1{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:144px 0 144px 0;
+}
+.section3 .upperbox{
+    height:770px;
+    background-image: url(./images/growing-global-network-data-connections-concept.png);
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #21315e;
+    position: relative;
+    z-index: -1;
+}
+.section3 h1::before{
+    content: '';
+    position: absolute;
+    left: 273px;
+    right: 273px;
+    top: 80%;
+    bottom: -91%;
+    background-color: #53c5e5;
+    z-index: -1;
+}
+.lowerbox .box3 img {
+    width: 900px;
+    height: 535px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.lowerbox_in {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.section3 .lowerbox_in .box2 {
+    min-width: 600px;
+}
+.section3 .lowerbox_in .box3 {
+    margin: 80px 0 0 0;
+}
+
+.section4{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.section4 .box1{
+    width:635px;
+    height:700px;
+    background-color: #53c5e5;
+    position: relative;
+    float: left;
+}
+.section4 .box1_1{
+    height: 295px;
+    display: flex;
+}
+.section4 .box1_1_1{
+    background-color: #ff6c37;
+    width: 50%;
+}
+.section4 .box1_1_2{
+    background-color: #1f1646;
+    width: 50%;
+}
+.section4 .box2 {
+    display: flex;
+    height: 700px;
+}
+
+.section5{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.section5 .box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5 .box1_1 {
+    height: 255px;
+    width: 255px;
+    background: antiquewhite;
+    color:white;
+    padding: 20px;
+    display: flex;
+    border-radius: 125px;
+    font-size:20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section6 {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.section6 img {
+    width: 381px;
+    height: 381px;
+    object-fit:cover;
+}
+@media(max-width:1024px){
+    .lowerbox .box3 img{
+        width:100%!important;
+    }
+    .lowerbox_in {
+        flex-wrap: wrap;
+    }
+}
+
+.section7{
+    background-color: #e9faff;
+}
+.section7 .box1 p{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #172a26;
+    font-weight: 250;
+    font-family: "Oswald";
+}
+.section8{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.section8 .box {
+    display: flex;
+    margin: 120px 0 120px 0;
+    justify-content: space-between;
+}
+.section8 .box1_1 {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #172a26;
+    font-weight: 300;
+    font-family: "Oswald";
+}
+.section8 .box2_2 {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #172a26;
+    font-weight: 300;
+    font-family: "Oswald";
+}
+.section8 .box3_3 {
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #172a26;
+    font-family: "Oswald";
+    margin: 0 auto;
+    width: 68%;
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+      $(document).ready(function() {
+  const slider = $(".slider-item");
+  slider.slick({
+      dots: false
+    });
+
+  slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    if (e.originalEvent.deltaY < 0) {
+      $(this).slick('slickNext');
+    } else {
+      $(this).slick('slickPrev');
+    }
+  }));
+});
+    </script>
+    <header>
+          <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./images/Logo(1).png" alt="Avatar Logo" style="width:40%;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="carousel">
+      <div class='slider'>
+          <div class="slider__1"> 
+            <div class="slider_1">
+            <h1 style="font-size: 65px;letter-spacing: 1px;color: #ffffff;font-weight: 900;font-family: 'Roboto';text-align: center;">From exploitation</h1>
+            </div>
+            <img src="./images/ezgif.com-gif-maker.png" alt="">
+          </div>
+          <div class="slider__1"> 
+            <div class="slider_1">
+            <h1>From exploitation</h1>
+            </div>
+            <img src="./images/silvia-fang-Xk2z26GRaL0-unsplash.png" alt="">
+          </div>
+          <div class="slider__1"> 
+            <div class="slider_1">
+            <h1>From exploitation</h1>
+            </div>
+            <img src="./images/silvia-fang-Xk2z26GRaL0-unsplash.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section2">
+      <h1 style="font-weight: 300;font-size: 60px;letter-spacing: 1px;color: #172a26;font-weight: 300;font-family: 'Oswald';">What <strong style="font-weight: 900;">IF?</strong></h1>
+      <div class="boxes">
+        <div class="box1">
+          <h3>Development and sustainability went hand in hand?</h3>
+        </div>
+        <div class="box2">
+          <h3>Development was abot empowerment and not exploitation</h3>
+        </div>
+        <div class="box3">
+          <h3>We could ensure a secure resource bank for our future generations?</h3>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="section3">
+      <div class="upperbox">
+      <div class="box1">
+        <h2 style="width:75%;font-size: 42px;letter-spacing: 0px;color: #54c8e8;font-weight: 300;font-family: 'Oswald';">This vision can become our reality with the</h2>
+        <h1 style ="width:75%;font-size: 70px;letter-spacing: 0px;color: #54c8e8;font-weight: 300;font-family: 'Oswald';">Alternative Development Model</h1>
+        <h4 style="width:75%;font-size: 24px;letter-spacing: 1px;color: #ffffff;font-weight: 300;font-family: 'Oswald';">Break the chain of exploitation and correct the unequal balance of limited
+          resources and unlimited aspirations with an inclusive and integrated development
+          operating system designed for all.</h4>
+      </div>
+      </div>
+      <div class="lowerbox">
+        <div class="lowerbox_in">
+        <div class="box2">
+          <h1 style="position:relative;padding:190px 0 0 0;font-size: 60px;letter-spacing: 1px;color: #ffffff;font-weight: 700;font-family: 'Oswald';">What is ADM?</h1>
+          <div style="width: 446px;height: 227px;margin-top:40px">
+            <p style="font-size: 18px;letter-spacing: 0px;color: #ffffff;font-weight: 300;font-family: 'Oswald';">An independent, non-profit, legal entity registered under Norwegian law, the Alternate Development Organisation has come up with the Alternative Development Model (ADM) that is targeted towards energy efficiency, environmental responsibility, and sustainability. </p>
+          </div>
+        </div>
+        <div class="box3">
+          <img src="./images/pexels-benjamin-suter-3617500.png">
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="section4">
+      <h1 style="font-size: 60px;letter-spacing: 1px;color: #172a26;font-family: 'Oswald';font-weight: 900;margin-bottom: 150px;">How ADM Works</h1>
+      <div class="box1">
+        <div class="box1_1">
+          <div class="box1_1_1">
+            <p style="font-size: 20px;letter-spacing: 0px;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 90px 20px 20px 20px;line-height: 1.3;">
+              <strong style="font-size: 50px;letter-spacing: 1px;color: #ffffff;font-weight: 700;font-family: 'Oswald';margin-right: 40%;">0.5%</strong> of the world’s nations use exploitative development models.</p>
+          </div>
+          <div class="box1_1_2">
+            <p style="font-size: 20px;letter-spacing: 0px;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 90px 20px 20px 20px;line-height: 1.3;">The ADM framework aims
+              to empower the remaining <strong style="font-size: 50px;letter-spacing: 1px;color: #ffffff;font-weight: 700;font-family: 'Oswald';">95%</strong> with a corruption-free model.</p>
+          </div>
+        </div>
+      </div>
+      <div class="box2" style="background-color: #5b6670;opacity:0.6;margin:0;background-image:url(./images/dave-hoefler-LzSU1IXG68U-unsplash\(1\).png)">
+        <p style="font-size: 20px;letter-spacing: 0px;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 300px 20px 20px 20px;line-height: 1.3;">
+          This encourages the creation of a future that invites
+          <strong style="font-size: 50px;letter-spacing: 1px;color: #ffffff;font-weight: 700;font-family: 'Oswald';margin-right: 40%;">Growth Investment Measurable Impact</strong></p>
+      </div>
+
+      <p style="margin:100px 0 50px 0;font-size: 22px;letter-spacing: 0px;color: #172a26;font-weight: 300;font-family: 'Oswald';">
+        The core operating framework of the ADM addresses critical issues of economic disparity, apathetic policies, and the exploitative usage of non-renewable energy sources.
+      </p>
+
+      <div class="box3">
+        <div class="box2_1" style="width:100%;display:flex;height: 481px;">
+          <div class="box2_1_1" style="background-image: url(./images/building-lake.png); background-color: #5b6670;width: 50%;">
+            <p style="padding: 180px 20px 20px 20px;line-height: 1.3;font-size: 20px;letter-spacing: 0px;color: #ffffff;font-weight: 300;font-family: 'Oswald';">
+              THE INTEGRATION OF ANY <br>
+              <strong style="font-size: 40px;letter-spacing: 1px;color: #ffffff;font-weight: 900;font-family: 'Oswald';">PRODUCT OR POLICY</strong>
+               <br>DEPENDS UPON ITS ABILITY TO FACILITATE
+            </p>    
+          </div>
+          <div class="box_2_1_2" style="background-color: darkkhaki;width: 50%;">
+
+          </div>
+        </div>
+        <div class="box_2_2" style="width:100%;display:flex;height: 481px;justify-content: space-evenly;">
+          <div class="box_2_2_1" style="width:inherit;text-align:center;background-color:#5cb89c;height: 100%;display: flex;align-items: center;">
+            <p style="font-size: 20px;letter-spacing: 0px;width:inherit;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 20px 20px 20px 20px;line-height: 1.3;">
+              <strong style="font-size: 35px;letter-spacing: 1px;color: #ffffff;font-weight: 900;font-family: 'Oswald';">Empowerment</strong><br>
+               of all sections of the society
+            </p>   
+          </div>
+          <div class="box_2_2_2" style="width:inherit;text-align:center;background-color:#54c8e8;height: 100%;display: flex;align-items: center;">
+            <p style="font-size: 20px;letter-spacing: 0px;width:inherit;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 20px 20px 20px 20px;line-height: 1.3;">
+              <strong style="font-size: 35px;letter-spacing: 1px;color: #ffffff;font-weight: 900;font-family: 'Oswald';">Equitable</strong><br>
+               distribution of resources and opportunities
+            </p>   
+          </div>
+          <div class="box_2_2_2" style="width:inherit;text-align:center;background-color:#5cb89c;height: 100%;display: flex;align-items: center;">
+            <p style="font-size: 20px;letter-spacing: 0px;width:inherit;color: #ffffff;font-weight: 300;font-family: 'Oswald';padding: 20px 20px 20px 20px;line-height: 1.3;">
+              <strong style="font-size: 35px;letter-spacing: 1px;color: #ffffff;font-weight: 900;font-family: 'Oswald';">Environmentally</strong><br>
+               sustainable development
+            </p>   
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section5">
+      <h1 style="margin-top:150px;font-size: 60px;letter-spacing: 1px;color: #172a26;font-family: 'Oswald';font-weight: 900;margin-bottom: 150px;">ADM Ecosystem</h1>
+      <div class="box1">
+        <div class="box1_1" style="background-color: #5cb89c;">
+          <p>*</p>
+          <p>Global Partnership Foundation</p>
+        </div>
+        <div class="box1_1" style="background-color: #1f1646;">
+          <p>*</p>
+          <p>India Center Foundation</p>
+        </div>
+        <div class="box1_1" style="background-color: #54c8e8;">
+          <p>*</p>
+          <p>Alternative Development Organisation</p>
+        </div>
+        <div class="box1_1" style="background-color: #2b594b;">
+          <p>*</p>
+          <p>India-Japan Foundation</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section5">
+      <h1 style="margin-top:150px;font-size: 60px;letter-spacing: 1px;color: #172a26;font-family: 'Oswald';font-weight: 900;margin-bottom: 70px;">See our ideas in action</h1>
+    </section>
+      <section class="section6">
+      <div class="box1" style="display: flex;flex-wrap: wrap;">
+        <div class="box_1">
+          <img src="./images/macau-photo-agency-8p1Z-X2QR1M-unsplash.png" alt="">
+        </div>
+        <div class="box_1">
+          <img src="./images/ehimetalor-akhere-unuabona-MWmFIFGARFQ-unsplash.png" alt="">
+        </div>
+        <div class="box_1">
+          <img src="./images/ehimetalor-akhere-unuabona-_fPUzCWxxGA-unsplash.png" alt="">
+        </div>
+        <div class="box_1">
+          <img src="./images/jason-leung-LyE_IjKFwR0-unsplash.png" alt="">
+        </div>
+        <div class="box_1">
+          <img src="./images/aranprime-LU7LYhVZ4sM-unsplash.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="section7">
+      <div class="box" style="padding: 100px 0 100px 0;display: flex;flex-direction: column;max-width: 1170px;margin: 0 auto;align-items: center;">
+        <div class="box1">
+          <p>FOLLOW US:</p>
+        </div>
+        <div class="box1">
+          <p>ICONS</p>
+        </div>
+        <div class="box1">
+          <p>Influence. Integrate. Impact</p>
+        </div>
+        <div class="box1">
+          <p>Our journey of change begins with you</p>
+        </div>
+        <div class="box1">
+          <p>Search</p>
+        </div>
+      </div>
+    </section>
+
+    <Footer class="section8">
+      <div class="box">
+        <div class="box1">
+          <p style="font-size: 30px;letter-spacing: 0px;color: #172a26;font-weight: 900;font-family: 'Oswald';margin-bottom: 40px;">Quick Links</p>
+          <p class="box1_1">
+            About
+          </p>
+          <p class="box1_1">
+            Sitemap
+          </p>
+          <p class="box1_1">
+            Contact Us
+          </p>
+          <p class="box1_1">
+            Career
+          </p>
+        </div>
+
+        <div class="box2">
+          <p style="font-size: 30px;letter-spacing: 0px;color: #172a26;font-weight: 900;font-family: 'Oswald';margin-bottom: 40px;">Resources</p>
+          <p class="box2_2">
+            Downloads
+          </p>
+          <p class="box2_2">
+            Gallery
+          </p>
+        </div>
+
+        <div class="box3">
+          <p style="font-size: 30px;letter-spacing: 0px;color: #172a26;font-weight: 900;font-family: 'Oswald';margin-bottom: 40px;">Latest Posts</p>
+          <p class="box3_3">
+            The environment around you controlls your productivity
+          </p>
+          <p class="box3_3">
+            The environment around you controlls your productivity
+          </p>
+          <p class="box3_3">
+            The environment around you controlls your productivity
+          </p>
+        </div>
+      </div>
+    </Footer>
+    <p style="padding: 30px;background-color: #e9faff;text-align: center;margin-bottom: 0;border-top: 4px solid;">@ 2021 Copyright Alternative Development Model. All rights reserved</p>
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
